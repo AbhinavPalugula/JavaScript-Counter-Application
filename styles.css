@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Source+Sans+Pro:wght@200;600&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.main-heading {
+  color: #0b2447;
+  font-size: 4em;
+  letter-spacing: 2px;
+  margin: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 400;
+  text-align: center;
+}
+
+.number {
+  font-size: 8em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-weight: 600;
+  color: #54b435;
+  margin: 0;
+  text-align: center;
+  line-height: 0.8em;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  font-size: large;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 0.3em 8px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
